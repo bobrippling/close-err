@@ -1,0 +1,14 @@
+[package]
+name = "close-err"
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+authors = ["Rob Pilling <robpilling@gmail.com>"]
+description = "Add .close() to file-like types, for error handling"
+
+[target.'cfg(windows)'.dependencies]
+winapi = "0.3.9"
+kernel32-sys = "0.2.2"
+
+[target.'cfg(unix)'.dependencies]
+libc = "0.2"
