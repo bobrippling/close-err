@@ -1,6 +1,6 @@
 [package]
 name = "close-err"
-version = "1.0.1"
+version = "1.0.2"
 edition = "2021"
 license = "MIT"
 authors = ["Rob Pilling <robpilling@gmail.com>"]
